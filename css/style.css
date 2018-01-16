@@ -113,7 +113,34 @@ body {
     line-height: 48px;
 
     position: absolute;
-    margin-top: 374px;
+    margin-top: 370px;
     margin-left: 607px;
 }
 
+.icon-199-themify {	
+    height: 48px;	
+    width: 52px;	
+    color: #283238;	
+    font-family: themify;	
+    font-size: 48px;	
+    letter-spacing: 4px;	
+    line-height: 48px;
+
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 49.9%;
+}
+
+.icon-113-themify {	
+    height: 0.94%;	
+    width: 2.71%;	
+    color: #283238;	
+    font-family: themify;	
+    font-size: 48px;	
+    letter-spacing: 4px;	
+    line-height: 48px;
+
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 64.3%;
+}
