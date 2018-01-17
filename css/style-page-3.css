@@ -1,0 +1,54 @@
+.lorem-ipsum-4 {
+  width: 570px;
+  height: 200px;
+}
+
+.small-para-block {
+  width: 100%;
+  height: 30%;
+}
+
+.icon-78-themify {
+  height: 24px;
+  width: 18px;
+  color: #8BC34A;
+  font-family: themify;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  position: absolute;
+}
+
+.lorem-ipsum-is-simpl-para {	
+  height: 50px;	
+  width: 519px;	
+  color: #283238;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 13px;	
+  line-height: 24px;	
+  text-align: justify;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.member-img {
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 120px;
+}
+
+.daily-report-img {
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.daily-report-img-sizing {
+  width: 910px;
+  overflow: hidden;
+}
