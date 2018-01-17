@@ -41,7 +41,7 @@
 
 .daily-report-img {
   width: 50%;
-  height: 70%;
+  height: 67%;
   position: absolute;
   margin-left: 53%;
   margin-top: 20px;
@@ -51,4 +51,128 @@
 .daily-report-img-sizing {
   width: 910px;
   overflow: hidden;
+}
+
+.rectangle-5 {	
+  height: 544px;	
+  width: 1920px;	
+  background-image: url("../images/Rectangle 3.jpg");
+}
+
+.icon-128-themify {	
+  height: 73px;	
+  width: 72px;	
+  opacity: 0.4;	
+  color: #FFFFFF;	
+  font-family: themify;	
+  font-size: 72px;	
+  line-height: 73px;	
+  text-align: justify;
+  position: absolute;
+  margin-top: 327px;
+  margin-left: 487px;
+}
+
+.lorem-ipsum-is-simpl-members {	
+  height: 90px;	
+  width: 750px;	
+  color: #FFFFFF;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 18px;	
+  font-weight: 300;	
+  line-height: 30px;	
+  text-align: justify;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 586px; 
+}
+
+.icon-127-themify {	
+  height: 73px;	
+  width: 72px;	
+  opacity: 0.4;	
+  color: #FFFFFF;	
+  font-family: themify;	
+  font-size: 72px;	
+  line-height: 73px;	
+  text-align: justify;
+  position: absolute;
+  margin-top: 442px;
+  margin-left: 1362px; 
+}
+
+.our-customer {	
+  height: 63px;	
+  width: 300px;	
+  color: #FFFFFF;	
+  font-family: "Roboto", sans-serif;	
+  font-size: 48px;	
+  font-weight: 300;	
+  line-height: 63px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 816px;
+}
+
+.small-rectangle-5 {
+  height: 80px;
+  width: 1300px;
+  margin-top: 161px;
+  margin-left: 320px;
+  position: absolute;
+}
+
+.mini-rectangle-5 {
+  display: inline-block;
+  height: 80px;
+  width: 150px;
+}
+
+.human-face-img {
+  position: absolute;
+  margin-left: 78px;
+}
+
+.special-human-face {
+  width: 100px;
+  margin-top: -10px;
+  margin-left: 68px;
+}
+
+.duong-nt-designer-1 {
+	height: 31px;
+	width: 70px;
+	color: #FFFFFF;
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 13px;
+  text-align: center;
+  position: absolute;
+  margin-left: 81px;
+  margin-top: 96px;
+}
+
+.duong-nt-designer-2 {
+	height: 31px;
+	width: 58px;
+	color: #FFFFFF;
+	font-family: "Roboto", sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 13px;
+  text-align: center;
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 112px;
+}
+
+.duong-nt-special-1 {
+  margin-top: 106px;
+
+}
+
+.duong-nt-special-2 {
+  margin-top: 122px;
+
 }

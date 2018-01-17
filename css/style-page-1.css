@@ -3,8 +3,9 @@
   src: url("../font/enso.ttf");
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('../font/themify-icons/themify-icons.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+/* @import url('../font/themify-icons/themify-icons.css'); */
 html {
   width: 1920px;
 }
