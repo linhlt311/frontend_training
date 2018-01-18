@@ -51,6 +51,7 @@ body {
 }
 
 .sign-in {
+  cursor: pointer;
   height: 16px;
   width: 55px;
   color: #8BC34A;
@@ -64,7 +65,7 @@ body {
   margin-left: 15px;
 }
 
-.rectangle-2-copy {
+.start-now-button {
   height: 60px;
   width: 225px;
   border-radius: 100px;
@@ -73,6 +74,11 @@ body {
   position: absolute;
   margin-left: 45.11%;
   margin-top: 580px;
+}
+
+.start-now-button:hover {
+  cursor: pointer;
+  background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
 }
 
 .start-now {
