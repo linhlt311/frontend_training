@@ -95,7 +95,7 @@ body {
   margin-left: 56px;
 }
 
-.icon-161-themify {
+.index-page-gift-logo {
   color: #283238;
   font-size: 48px;
   letter-spacing: 4px;
@@ -105,7 +105,7 @@ body {
   margin-left: 32.61%;
 }
 
-.icon-199-themify {
+.index-page-alarm-clock-logo {
   color: #283238;
   font-family: themify;
   font-size: 48px;
@@ -116,7 +116,7 @@ body {
   margin-left: 49.9%;
 }
 
-.icon-113-themify {
+.index-page-thumb-up-logo {
   color: #283238;
   font-family: themify;
   font-size: 48px;
@@ -166,7 +166,7 @@ body {
   margin-left: 63.99%;
 }
 
-.lorem-ipsum-is-simpl {
+.lorem-ipsum-is-simpl-index {
   height: 24px;
   width: 32.64%;
   color: #283238;
@@ -179,144 +179,18 @@ body {
   margin-left: 37.35%;
 }
 
-.start-now-button-2 {
+.start-now-button-task-pages {
   margin-left: 10%;
   margin-top: 473px;
 }
 
-.mask {
+.task-page-main-box {
   height: 661px;
   width: 1920px;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
-.tab-bar {
-  height: 49.27px;
-  width: 49.15%;
-  ;
-  border: 1.5px solid #F2F2F2;
-  border-radius: 3px 3px 0 0;
-  background-color: #FFFFFF;
-  position: absolute;
-  margin-top: 75px;
-  margin-left: 11.95%;
-}
-
-.tab {
-  height: 91.49px;
-  width: 49.15%;
-  border: 1.5px solid #F2F2F2;
-  background-color: #FFFFFF;
-  position: absolute;
-  margin-top: 87.32px;
-  margin-left: 11.95%;
-}
-
-.close {
-  box-sizing: border-box;
-  height: 11.25px;
-  width: 11.24px;
-  border: 1px solid #EA4240;
-  border-radius: 50%;
-  background-color: #FF5D5B;
-  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.56);
-  position: absolute;
-  margin-top: 8.29px;
-  margin-left: 22.19px;
-}
-
-.minimize {
-  box-sizing: border-box;
-  height: 11.25px;
-  width: 11.24px;
-  border: 1px solid #F7AE33;
-  border-radius: 50%;
-  background-color: #FFBC4C;
-  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
-  position: absolute;
-  margin-top: 8.29px;
-  margin-left: 39.74px;
-}
-
-.extend {
-  box-sizing: border-box;
-  height: 11.25px;
-  width: 11.24px;
-  border: 1px solid #04AD4C;
-  border-radius: 50%;
-  background-color: #00CC57;
-  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
-  position: absolute;
-  margin-top: 8.29px;
-  margin-left: 57.29px;
-}
-
-.favicon-tab-1 {
-  height: 12.3px;
-  width: 13.78px;
-  border-radius: 2px;
-  background-color: #8BC34A;
-  position: absolute;
-  margin-top: 11.59px;
-  margin-left: 117.42px;
-}
-
-.title-tab-1 {
-  height: 10px;
-  width: 76.73px;
-  color: #757575;
-  font-family: Helvetica;
-  font-size: 8px;
-  font-weight: normal;
-  line-height: 10px;
-  position: absolute;
-  margin-top: 12.95px;
-  margin-left: 136.99px;
-}
-
-.close-shape {
-  height: 8.21px;
-  width: 8.2px;
-  font-size: 11px;
-  position: absolute;
-  margin-top: 15.25px;
-  margin-left: 30.1%;
-}
-
-.left-arrow-shape {
-  height: 15.53px;
-  width: 15.51px;
-  color: #93A4AD;
-  font-size: 18px;
-  font-weight: bolder;
-  position: absolute;
-  margin-top: 52.99px;
-  margin-left: 2.07%;
-}
-
-.right-arrow-shape {
-  height: 15.53px;
-  width: 15.51px;
-  color: #93A4AD;
-  font-size: 18px;
-  font-weight: bolder;
-  position: absolute;
-  margin-top: 52.99px;
-  margin-left: 6.37%;
-}
-
-.reload-shape {
-  height: 15.53px;
-  width: 15.51px;
-  color: #93A4AD;
-  font-size: 18px;
-  font-weight: bolder;
-  position: absolute;
-  margin-top: 52.99px;
-  margin-left: 11.02%;
-}
-
-.rectangle-3 {
+.right-side-task-block {
   height: 661px;
   width: 700px;
   margin-left: 900px;
@@ -336,7 +210,7 @@ body {
   margin-left: 17.65%;
 }
 
-.icon-25-themify {
+.title-icon {
   color: #444444;
   font-family: themify;
   font-size: 36px;
@@ -346,7 +220,7 @@ body {
   margin-left: 10%;
 }
 
-.lorem-ipsum-is-simpl-copy {
+.lorem-ipsum-is-simpl-subscription {
   height: 19px;
   width: 90.02%;
   color: #283238;
@@ -359,7 +233,7 @@ body {
   margin-left: 10%;
 }
 
-.lorem-ipsum-is-simpl-2 {
+.lorem-ipsum-is-simpl-para-long {
   height: 168px;
   width: 545px;
   color: #283238;
@@ -373,31 +247,32 @@ body {
   margin-left: 10%;
 }
 
-.rectangle-4 {
+.left-side-task-block {
   height: 661px;
   width: 700px;
   margin-left: 315px;
   position: absolute;
 }
 
-.lorem-ipsum-3 {
+.para-narrow-block {
   width: 457px;
+  margin-top: 252px;
 }
 
-.mask-2 {	
+.task-list-banner {	
   height: 322px;	
   width: 100%;	
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
 
-.mask-2-mini-rect {
+.task-list-banner-mini-rect {
   height: 322px;
   width : 68%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.mask-2-mini-rect-junior {
+.task-list-banner-mini-rect-junior {
   display: inline-flex;
   height: 322px;
   width: 19.7%;
@@ -415,7 +290,7 @@ body {
   margin-top: 68.75px;
 }
 
-.oval-2 {	
+.oval-mini {	
   box-sizing: border-box;	
   height: 45.5px;	
   width: 45.5px;	
@@ -478,7 +353,7 @@ body {
   margin-top: 490px;
 }
 
-.lorem-ipsum-4 {
+.list-para-block {
   width: 570px;
   height: 200px;
 }
@@ -488,7 +363,7 @@ body {
   height: 30%;
 }
 
-.icon-78-themify {
+.list-bullet-icon {
   color: #8BC34A;
   font-family: themify;
   font-size: 18px;
@@ -530,13 +405,13 @@ body {
   width: 910px;
 }
 
-.rectangle-5 {	
+.our-customer-box {	
   height: 544px;	
   width: 1920px;	
   background-image: url("../images/background-picture-2.jpg");
 }
 
-.icon-128-themify {	
+.open-quote-icon {	
   opacity: 0.4;	
   color: #FFFFFF;	
   font-family: themify;	
@@ -548,7 +423,7 @@ body {
   margin-left: 487px;
 }
 
-.lorem-ipsum-is-simpl-members {	
+.lorem-ipsum-is-simpl-customers {	
   height: 90px;	
   width: 750px;	
   color: #FFFFFF;	
@@ -562,7 +437,7 @@ body {
   margin-left: 586px; 
 }
 
-.icon-127-themify {	
+.close-quote-icon {	
   opacity: 0.4;	
   color: #FFFFFF;	
   font-family: themify;	
@@ -587,7 +462,7 @@ body {
   margin-left: 816px;
 }
 
-.small-rectangle-5 {
+.small-our-customer-box {
   height: 80px;
   width: 1300px;
   margin-top: 161px;
@@ -595,7 +470,7 @@ body {
   position: absolute;
 }
 
-.mini-rectangle-5 {
+.mini-our-customer-box {
   display: inline-block;
   height: 80px;
   width: 150px;
@@ -612,7 +487,7 @@ body {
   margin-left: 68px;
 }
 
-.duong-nt-designer-1 {
+.customer-name {
 	height: 31px;
 	width: 70px;
 	color: #FFFFFF;
@@ -626,7 +501,7 @@ body {
   margin-top: 96px;
 }
 
-.duong-nt-designer-2 {
+.customer-job {
 	height: 31px;
 	width: 58px;
 	color: #FFFFFF;
@@ -640,15 +515,15 @@ body {
   margin-top: 112px;
 }
 
-.duong-nt-special-1 {
+.customer-name-special {
   margin-top: 106px;
 }
 
-.duong-nt-special-2 {
+.customer-job-special {
   margin-top: 122px;
 }
 
-.mask-3 {
+.footer {
 	height: 180px;
 	width: 1920px;
 	border: 1px solid #ECEFF1;
@@ -656,14 +531,14 @@ body {
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
 
-.mask-3-small-rectangle {
+.footer-small-rectangle {
   width: 1000px;
   height: 180px;
   position: absolute;
   margin-left: 389px;
 }
 
-.mask-3-tiny-rectangle {
+.footer-tiny-rectangle {
   display: inline-block;
   width: 196px;
   height: 100%;
