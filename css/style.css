@@ -21,7 +21,7 @@ body {
   font-size: 64px;
   line-height: 77px;
   position: absolute;
-  margin-left: 44.53%;
+  margin-left: 826px;
   margin-top: 249px;
 }
 
@@ -35,27 +35,27 @@ body {
   letter-spacing: 1px;
   line-height: 16px;
   position: absolute;
-  margin-top: 53px;
-  margin-left: 1344px;
+  margin-top: 48px;
+  margin-left: 1332px;
 }
 
 .sign-in {
   height: 36px;
   width: 83px;
-  border: 2px solid #8BC34A;	
+  border: 2px solid #8BC34A;
   border-radius: 100px;
-  color: #8BC34A;	
-  font-family: "Roboto", sans-serif;	
-  font-size: 12px;	
-  font-weight: 500;	
-  letter-spacing: 1px;	
+  color: #8BC34A;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
   line-height: 16px;
   padding-left: 6px;
   padding-top: 3px;
   background: none;
   position: absolute;
-  margin-left: 1448px;
-  margin-top: 43px;
+  margin-left: 1434px;
+  margin-top: 37px;
   cursor: pointer;
 }
 
@@ -90,7 +90,7 @@ body {
   line-height: 48px;
   position: absolute;
   margin-top: 370px;
-  margin-left: 32.61%;
+  margin-left: 597px;
 }
 
 .index-page-alarm-clock-logo {
@@ -101,7 +101,7 @@ body {
   line-height: 48px;
   position: absolute;
   margin-top: 370px;
-  margin-left: 49.9%;
+  margin-left: 925px;
 }
 
 .index-page-thumb-up-logo {
@@ -112,7 +112,7 @@ body {
   line-height: 48px;
   position: absolute;
   margin-top: 370px;
-  margin-left: 66.3%;
+  margin-left: 1229px;
 }
 
 .better {
@@ -125,7 +125,7 @@ body {
   line-height: 48px;
   position: absolute;
   margin-top: 434px;
-  margin-left: 31.47%;
+  margin-left: 575px;
 }
 
 .faster {
@@ -138,12 +138,12 @@ body {
   line-height: 48px;
   position: absolute;
   margin-top: 434px;
-  margin-left: 48.47%;
+  margin-left: 900px;
 }
 
 .together {
-  height: 0.94%;
-  width: 7.34%;
+  height: 48px;
+  width: 141px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -151,12 +151,12 @@ body {
   line-height: 48px;
   position: absolute;
   margin-top: 434px;
-  margin-left: 63.99%;
+  margin-left: 1184px;
 }
 
 .lorem-ipsum-is-simpl-index {
   height: 24px;
-  width: 32.64%;
+  width: 32.6%;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -164,7 +164,7 @@ body {
   line-height: 24px;
   position: absolute;
   margin-top: 535px;
-  margin-left: 37.35%;
+  margin-left: 37.4%;
 }
 
 .start-now-button-task-pages {
@@ -187,7 +187,7 @@ body {
 
 .today-i-learnt {
   height: 63px;
-  width: 70.04%;
+  width: 70%;
   color: #444444;
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -195,7 +195,7 @@ body {
   line-height: 63px;
   position: absolute;
   margin-top: 129px;
-  margin-left: 17.65%;
+  margin-left: 17.7%;
 }
 
 .title-icon {
@@ -210,7 +210,7 @@ body {
 
 .lorem-ipsum-is-simpl-subscription {
   height: 19px;
-  width: 90.02%;
+  width: 90%;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -273,7 +273,7 @@ body {
   border-radius: 50%;
   position: absolute;
   margin-left: 4%;
-  margin-top: 68.75px;
+  margin-top: 68.8px;
 }
 
 .oval-mini {
@@ -285,7 +285,7 @@ body {
   background-color: #7CB342;
   position: absolute;
   margin-left: 5.7%;
-  margin-top: 153.75px;
+  margin-top: 153.8px;
 }
 
 .mini-icon-rectangle {
@@ -329,7 +329,7 @@ body {
   height: 600px;
   position: absolute;
   margin-top: 50px;
-  margin-left: 170.37px;
+  margin-left: 170.4px;
 }
 
 .daily-report-start-button {
@@ -612,7 +612,7 @@ body {
 
 .oval-dot-special {
   height: 10px;
-  width: 9.71px;
+  width: 9.7px;
   background-color: #D8D8D8;
   border-radius: 50%;
 }
@@ -620,7 +620,7 @@ body {
 .oval-dot {
   box-sizing: border-box;
   height: 11px;
-  width: 10.71px;
+  width: 10.7px;
   border: 1px solid #979797;
   border-radius: 50%;
 }
