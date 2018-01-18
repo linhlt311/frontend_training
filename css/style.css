@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-image: url("../images/Rectangle (2).jpg");
+  background-image: url("../images/background-picture.jpg");
   background-repeat: no-repeat;
 }
 
@@ -90,8 +90,6 @@ body {
 }
 
 .icon-161-themify {
-  height: 0.94%;
-  width: 2.71%;
   color: #283238;
   font-size: 48px;
   letter-spacing: 4px;
@@ -102,8 +100,6 @@ body {
 }
 
 .icon-199-themify {
-  height: 48px;
-  width: 52px;
   color: #283238;
   font-family: themify;
   font-size: 48px;
@@ -115,8 +111,6 @@ body {
 }
 
 .icon-113-themify {
-  height: 0.94%;
-  width: 2.71%;
   color: #283238;
   font-family: themify;
   font-size: 48px;
@@ -184,13 +178,6 @@ body {
   margin-top: 473px;
 }
 
-@font-face {
-  font-family: "Enso";
-  src: url("../font/enso.ttf");
-}
-
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('../font/themify-icons/themify-icons.css');
 .mask {
   height: 661px;
   width: 1920px;
@@ -344,8 +331,6 @@ body {
 }
 
 .icon-25-themify {
-  height: 36px;
-  width: 36px;
   color: #444444;
   font-family: themify;
   font-size: 36px;
@@ -498,8 +483,6 @@ body {
 }
 
 .icon-78-themify {
-  height: 24px;
-  width: 18px;
   color: #8BC34A;
   font-family: themify;
   font-size: 18px;
@@ -530,7 +513,7 @@ body {
 
 .daily-report-img {
   width: 50%;
-  height: 67%;
+  height: 630px;
   position: absolute;
   margin-left: 54.5%;
   margin-top: 20px;
@@ -539,18 +522,15 @@ body {
 
 .daily-report-img-sizing {
   width: 910px;
-  overflow: hidden;
 }
 
 .rectangle-5 {	
   height: 544px;	
   width: 1920px;	
-  background-image: url("../images/Rectangle 3.jpg");
+  background-image: url("../images/background-picture-2.jpg");
 }
 
 .icon-128-themify {	
-  height: 73px;	
-  width: 72px;	
   opacity: 0.4;	
   color: #FFFFFF;	
   font-family: themify;	
@@ -577,8 +557,6 @@ body {
 }
 
 .icon-127-themify {	
-  height: 73px;	
-  width: 72px;	
   opacity: 0.4;	
   color: #FFFFFF;	
   font-family: themify;	
@@ -744,7 +722,7 @@ body {
 
 .project-img {
   width: 50%;
-  height: 67%;
+  height: 630px;
   position: absolute;
   margin-left: 52%;
   margin-top: 20px;
@@ -753,5 +731,33 @@ body {
 
 .project-img-sizing {
   width: 960px;
-  overflow: hidden;
+}
+
+.dot-main-rectangle {
+  height: 11px;
+  width: 110px;
+  position: absolute;
+  margin-top: 318px;
+  margin-left: 923px;
+}
+
+.dot-small-rectangle {
+  display: inline-block;
+  height: 11px;
+  width: 32.5px;
+}
+
+.oval-dot-special {
+	height: 10px;
+	width: 9.71px;
+  background-color: #D8D8D8;
+  border-radius: 50%;
+}
+
+.oval-dot {
+	box-sizing: border-box;
+	height: 11px;
+	width: 10.71px;
+  border: 1px solid #979797;
+  border-radius: 50%;
 }
