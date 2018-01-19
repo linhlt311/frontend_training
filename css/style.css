@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
-
-html {
-  width: 1920px;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i');
 
 body {
   background-image: url("../images/background-picture.jpg");
@@ -16,34 +12,24 @@ body {
   width: 1920px;
 }
 
+.hapo-erp-box {
+  height: 61px;
+  margin-top: 167px;
+  padding-top: 14px;
+}
+
 .hapo-erp {
-  height: 77px;
-  width: 256px;
-  color: #AED581;
-  font-family: "Enso";
-  font-size: 64px;
-  line-height: 77px;
-  position: absolute;
-  margin-left: 836px;
-  margin-top: 259px;
+  margin-left: 43.5%;
 }
 
 .index-header-box {
-  margin-top: 43px;
+  margin-top: 41px;
+  height: 36px;
 }
 
 .about-us {
-  height: 16px;
-  width: 66px;
-  color: #283238;
-  font-family: 'Roboto', sans-serif;
-  font-size: 11.5px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 16px;
-  position: absolute;
-  margin-top: 55px;
-  margin-left: 1343px;
+  margin-top: 10px;
+  margin-left: 70%;
 }
 
 .sign-in {
@@ -54,15 +40,12 @@ body {
   color: #8BC34A;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   line-height: 16px;
-  padding-left: 6px;
-  padding-top: 3px;
+  padding: 10px 15px 10px 15px;
   background: none;
-  position: absolute;
-  margin-left: 1445px;
-  margin-top: 42px;
+  margin-left: 36px;
   cursor: pointer;
 }
 
@@ -72,57 +55,64 @@ body {
 }
 
 .start-now-button {
+  height: 24px;
+  width: 120px;
   border-radius: 100px;
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  position: absolute;
-  margin-left: 847px;
-  margin-top: 580px;
+  margin-left: 44.1%;
+  margin-top: 22px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-weight: 400;
+  letter-spacing: 2px;
   line-height: 24px;
-  padding-left: 56px;
-  padding-right: 56px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding: 18px 49px 18px 56px;
+}
+
+.index-logo-icon {
+  height: 52px;
+  margin-top: 53px;
+}
+
+.index-icon-font {
+  color: #283238;
+  font-family: themify;
+  font-size: 48px;
+  letter-spacing: 4px;
+  line-height: 48px;
 }
 
 .index-page-gift-logo {
+  display: inline-block;
+  width: 48px;
   color: #283238;
   font-size: 48px;
   letter-spacing: 4px;
   line-height: 48px;
-  position: absolute;
-  margin-top: 370px;
-  margin-left: 607px;
+  margin-left: 31.6%;
 }
 
 .index-page-alarm-clock-logo {
-  color: #283238;
-  font-family: themify;
-  font-size: 48px;
-  letter-spacing: 4px;
-  line-height: 48px;
-  position: absolute;
-  margin-top: 370px;
-  margin-left: 935px;
+  display: inline-block;
+  width: 48px;
+  margin-left: 14.4%;
 }
 
 .index-page-thumb-up-logo {
-  color: #283238;
-  font-family: themify;
-  font-size: 48px;
-  letter-spacing: 4px;
-  line-height: 48px;
-  position: absolute;
-  margin-top: 370px;
-  margin-left: 1239px;
+  display: inline-block;
+  width: 48px;
+  margin-left: 13.1%;
+}
+
+.index-icon-words-box {
+  height: 48px;
+  margin-top: 12px;
 }
 
 .better {
+  display: inline-block;
   height: 48px;
   width: 96px;
   color: #283238;
@@ -130,12 +120,11 @@ body {
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
-  position: absolute;
-  margin-top: 434px;
-  margin-left: 585px;
+  margin-left: 30.5%;
 }
 
 .faster {
+  display: inline-block;
   height: 48px;
   width: 101px;
   color: #283238;
@@ -143,12 +132,11 @@ body {
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
-  position: absolute;
-  margin-top: 434px;
-  margin-left: 910px;
+  margin-left: 11.7%;
 }
 
 .together {
+  display: inline-block;
   height: 48px;
   width: 141px;
   color: #283238;
@@ -156,22 +144,20 @@ body {
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
-  position: absolute;
-  margin-top: 434px;
-  margin-left: 1194px;
+  margin-left: 9.3%;
 }
 
 .lorem-ipsum-is-simpl-index {
   height: 24px;
-  width: 32.6%;
+  /* width: 32.6%; */
   color: #283238;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 17.5px;
   font-style: italic;
+  font-weight: 400;
   line-height: 24px;
-  position: absolute;
-  margin-top: 535px;
-  margin-left: 35.4%;
+  margin-top: 53px;
+  margin-left: 36.4%;
 }
 
 .start-now-button-task-pages {
