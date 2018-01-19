@@ -7,9 +7,12 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .rectangle {
-  height: 875px;
-  width: 1920px;
+  height: 832px;
 }
 
 .hapo-erp-box {
@@ -161,8 +164,8 @@ body {
 }
 
 .start-now-button-task-pages {
-  margin-left: 10%;
-  margin-top: 473px;
+  margin-top: 40px;
+  margin-left: 0px;
 }
 
 .task-page-main-box {
@@ -175,68 +178,71 @@ body {
   box-shadow: 0 0px 35px 0 rgba(0,0,0,0.1);
 }
 
-.right-side-task-block {
-  height: 661px;
-  width: 700px;
-  margin-left: 900px;
-  position: absolute;
+.clear {
+  clear: left;
+}
+
+.today-i-learnt-half-page {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.right-side-task-box {
+  margin-left: 15px;
+  margin-top: 129px;
+  width: 57.8%;
+  height: 401px;
+}
+
+.left-side-task-box {
+  margin-left: 40.6%;
+  width: 57.8%;
 }
 
 .today-i-learnt {
+  display: inline-block;
   height: 63px;
-  width: 70%;
+  width: 60%;
   color: #444444;
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: 300;
   line-height: 63px;
   position: absolute;
-  margin-top: 129px;
-  margin-left: 17.7%;
+  margin-left: 19px;
 }
 
 .title-icon {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
   color: #444444;
   font-family: themify;
   font-size: 36px;
   line-height: 36px;
-  position: absolute;
-  margin-top: 144px;
-  margin-left: 10%;
+  margin-top: 15px;
 }
 
 .lorem-ipsum-is-simpl-subscription {
   height: 19px;
-  width: 90%;
   color: #283238;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 13.5px;
+  font-weight: 400;
   font-style: italic;
   line-height: 19px;
-  position: absolute;
-  margin-top: 204px;
-  margin-left: 10%;
+  margin-top: 28px;
 }
 
 .lorem-ipsum-is-simpl-para-long {
-  height: 168px;
-  width: 545px;
+  width: 100%;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   line-height: 24px;
   text-align: justify;
-  position: absolute;
-  margin-top: 265px;
-  margin-left: 10%;
-}
-
-.left-side-task-block {
-  height: 661px;
-  width: 700px;
-  margin-left: 315px;
-  margin-top: -30px;
-  position: absolute;
+  margin-top: 38px;
 }
 
 .para-narrow-block {
@@ -245,8 +251,8 @@ body {
 }
 
 .task-list-banner {
-  height: 322px;
-  width: 100%;
+  height: 253px;
+  padding-top: 69px;
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
 
@@ -263,6 +269,11 @@ body {
   width: 19.7%;
 }
 
+.oval-main-box {
+  height: 109.5px;
+  width: 100%;
+}
+
 .oval {
   box-sizing: border-box;
   height: 109.5px;
@@ -271,7 +282,7 @@ body {
   border-radius: 50%;
   position: absolute;
   margin-left: 4%;
-  margin-top: 69px;
+  margin-top: 68.8px;
 }
 
 .oval-mini {
@@ -304,7 +315,7 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   color: #FFFFFF;
 }
 
@@ -324,11 +335,23 @@ body {
 }
 
 .today-i-learnt-image {
-  width: 40%;
-  height: 600px;
   position: absolute;
-  margin-top: 50px;
-  margin-left: 170px;
+  margin-top: 52px;
+  margin-left: 9.9%;
+}
+
+.daily-report-main-box {
+  height: 652px;
+}
+
+.daily-report-task-box {
+  margin-top: 144px;
+  height: 508px;
+  width: 47.6%;
+}
+
+.daily-report-para-long {
+  margin-top: 30px;
 }
 
 .daily-report-start-button {
@@ -379,18 +402,14 @@ body {
   width: 870px;
   height: 630px;
   position: absolute;
-  margin-left: 54.5%;
-  margin-top: 20px;
+  margin-left: 47px;
+  margin-top: 15px;
   overflow: hidden;
 }
 
 .daily-report-img-sizing {
-  width: 900px;
-  margin-left: -30px;
-}
-
-.daily-report-box {
-  margin-top: 0;
+  width: 910px;
+  margin-left: 0px;
 }
 
 .our-customer-box {
