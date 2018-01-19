@@ -69,7 +69,7 @@ body {
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  margin-left: 45.11%;
+  margin-left: 837px;
   margin-top: 580px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
@@ -116,8 +116,8 @@ body {
 }
 
 .better {
-  height: 0.94%;
-  width: 5%;
+  height: 48px;
+  width: 96px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -273,7 +273,7 @@ body {
   border-radius: 50%;
   position: absolute;
   margin-left: 4%;
-  margin-top: 68.8px;
+  margin-top: 69px;
 }
 
 .oval-mini {
@@ -285,7 +285,7 @@ body {
   background-color: #7CB342;
   position: absolute;
   margin-left: 5.7%;
-  margin-top: 153.8px;
+  margin-top: 154px;
 }
 
 .mini-icon-rectangle {
@@ -329,7 +329,7 @@ body {
   height: 600px;
   position: absolute;
   margin-top: 50px;
-  margin-left: 170.4px;
+  margin-left: 170px;
 }
 
 .daily-report-start-button {
