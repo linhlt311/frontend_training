@@ -300,8 +300,8 @@ p {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   background-color: #7CB342;
-  top: -24px;
   margin: auto;
+  margin-top: -24px;
 }
 
 .mini-icon-rectangle {
@@ -326,19 +326,17 @@ p {
   color: #FFFFFF;
 }
 
-.task-list {
+.task-list-name {
+  position: relative;
   height: 24px;
-  width: 230px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   line-height: 24px;
   text-align: center;
-  position: absolute;
-  margin-left: 1.5%;
-  margin-top: 230px;
+  margin-top: 29px;
 }
 
 .today-i-learnt-image {
