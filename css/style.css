@@ -201,6 +201,7 @@ p {
 }
 
 .today-i-learnt {
+  position: relative;
   display: inline-block;
   height: 63px;
   width: 60%;
@@ -209,7 +210,6 @@ p {
   font-size: 48px;
   font-weight: 300;
   line-height: 63px;
-  position: absolute;
   margin-left: 19px;
 }
 
@@ -232,7 +232,7 @@ p {
   font-weight: 400;
   font-style: italic;
   line-height: 19px;
-  margin-top: 28px;
+  margin-top: 16px;
 }
 
 .lorem-ipsum-is-simpl-para-long {
@@ -271,30 +271,37 @@ p {
 
 .oval-main-box {
   height: 109.5px;
-  width: 100%;
+  padding-left: 16.5%;
+  padding-right: 16.5%;
+}
+
+.oval-small-box {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 20%;
+  margin: auto;
 }
 
 .oval {
   box-sizing: border-box;
   height: 109.5px;
   width: 109.5px;
-  border: 2.5px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 50%;
-  position: absolute;
-  margin-left: 4%;
-  margin-top: 68.8px;
+  margin: auto;
 }
 
 .oval-mini {
+  position: relative;
   box-sizing: border-box;
   height: 45.5px;
   width: 45.5px;
-  border: 2.5px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 50%;
   background-color: #7CB342;
-  position: absolute;
-  margin-left: 5.7%;
-  margin-top: 154px;
+  top: -24px;
+  margin: auto;
 }
 
 .mini-icon-rectangle {
@@ -303,7 +310,7 @@ p {
   margin-top: 28%;
   margin-left: 25%;
   text-align: center;
-  font-size: 40px;
+  font-size: 37px;
   color: #FFFFFF;
 }
 
