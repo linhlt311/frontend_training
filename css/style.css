@@ -174,10 +174,6 @@ p {
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
-.customers-page-main-box {
-  box-shadow: 0 0px 35px 0 rgba(0,0,0,0.1);
-}
-
 .clear {
   clear: left;
 }
@@ -210,7 +206,7 @@ p {
   font-size: 48px;
   font-weight: 300;
   line-height: 63px;
-  margin-left: 19px;
+  margin-left: 15px;
 }
 
 .title-icon {
@@ -373,34 +369,61 @@ p {
   height: 65px;
 }
 
+.member-page-main-box {
+  height: 574px;
+  box-shadow: 0 0px 35px 0 rgba(0,0,0,0.1);
+}
+
+.member-page-task-box {
+  margin-top: 97px;
+  height: 470px;
+}
+
+.member-subs {
+  margin-bottom: 13px;
+  height: 30px;
+}
+
+.short-para-line-box {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 17px;
+}
+
 .list-bullet-icon {
+  float: left;
   color: #8BC34A;
   font-family: themify;
   font-size: 18px;
   line-height: 24px;
   text-align: justify;
-  position: absolute;
 }
 
-
 .lorem-ipsum-is-simpl-para {
+  float: left;
   height: 50px;
-  width: 519px;
+  width: 93.5%;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
+  font-weight: normal;
   line-height: 22px;
   text-align: justify;
-  position: absolute;
-  margin-left: 40px;
+  margin-top: 1px;
+  margin-left: 18px;
+}
+
+.start-button-member {
+  position: relative;
+  margin-top: 29px;
 }
 
 .member-img {
-  width: 47%;
-  height: 80%;
-  position: absolute;
-  margin-left: 52%;
-  margin-top: 100px;
+  float: left;
+  height: 401px;
+  margin-left: 3%;
+  margin-top: 97px;
 }
 
 .daily-report-img {
