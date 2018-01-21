@@ -152,7 +152,6 @@ p {
 
 .lorem-ipsum-is-simpl-index {
   height: 24px;
-  /* width: 32.6%; */
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 17.5px;
@@ -178,7 +177,7 @@ p {
   clear: left;
 }
 
-.today-i-learnt-half-page {
+.half-page {
   float: left;
   height: 100%;
   width: 50%;
@@ -380,8 +379,11 @@ p {
 }
 
 .member-subs {
-  margin-bottom: 13px;
   height: 30px;
+}
+
+.customer-subs {
+  height: 38px;
 }
 
 .short-para-line-box {
@@ -438,6 +440,10 @@ p {
 .daily-report-img-sizing {
   width: 910px;
   margin-left: 0px;
+}
+
+.customer-task-box {
+  height: 550px;
 }
 
 .our-customer-box {
