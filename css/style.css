@@ -501,6 +501,10 @@ p {
   transform: scale(1.2);
 }
 
+.human-face-img:hover + .customer-name {
+  margin-top: 20px;
+}
+
 .customer-name {
   position: relative;
   width: 70px;
