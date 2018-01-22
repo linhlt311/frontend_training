@@ -148,7 +148,6 @@ button {
 }
 
 .lorem-ipsum-is-simpl-index {
-  height: 24px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 17.5px;
@@ -452,8 +451,6 @@ button {
 
 .our-customer {
   position: relative;
-  height: 63px;
-  width: 100%;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -598,7 +595,6 @@ button {
 
 .footer-icon-box {
   float: left;
-  height: 15px;
   width: 51px;
   color: #8BC34A;
   font-family: themify;
