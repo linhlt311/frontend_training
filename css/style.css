@@ -6,10 +6,18 @@ body {
   margin: 0;
 }
 
+a {
+  color: #8BC34A;
+  text-decoration: none;
+}
+
 p {
   margin: 0;
 }
 
+button {
+  border:none;
+}
 .rectangle {
   height: 832px;
 }
@@ -35,7 +43,6 @@ p {
 }
 
 .sign-in {
-  height: 36px;
   border: 2px solid #8BC34A;
   border-radius: 100px;
   color: #8BC34A;
@@ -44,7 +51,7 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 16px;
-  padding: 9px 15px 10px 15px;
+  padding: 10px 15px;
   background: none;
   margin-left: 36px;
   cursor: pointer;
@@ -56,8 +63,6 @@ p {
 }
 
 .start-now-button {
-  height: 24px;
-  width: 120px;
   border-radius: 100px;
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -69,7 +74,7 @@ p {
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 24px;
-  padding: 18px 49px 18px 56px;
+  padding: 18px 55px;
 }
 
 .index-logo-icon {
@@ -114,8 +119,6 @@ p {
 
 .better {
   display: inline-block;
-  height: 48px;
-  width: 96px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -126,26 +129,22 @@ p {
 
 .faster {
   display: inline-block;
-  height: 48px;
-  width: 101px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
-  margin-left: 11.7%;
+  margin-left: 11.8%;
 }
 
 .together {
   display: inline-block;
-  height: 48px;
-  width: 141px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
-  margin-left: 9.3%;
+  margin-left: 9.4%;
 }
 
 .lorem-ipsum-is-simpl-index {
@@ -196,8 +195,6 @@ p {
 .today-i-learnt {
   position: relative;
   display: inline-block;
-  height: 63px;
-  width: 60%;
   color: #444444;
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -208,8 +205,6 @@ p {
 
 .title-icon {
   display: inline-block;
-  height: 36px;
-  width: 36px;
   color: #444444;
   font-family: themify;
   font-size: 36px;
@@ -218,7 +213,6 @@ p {
 }
 
 .lorem-ipsum-is-simpl-subscription {
-  height: 19px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 13.5px;
@@ -229,7 +223,6 @@ p {
 }
 
 .lorem-ipsum-is-simpl-para-long {
-  width: 100%;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 13.2px;
@@ -286,7 +279,6 @@ p {
 
 .mini-icon-rectangle {
   width: 50%;
-  height: 50%;
   margin-top: 28%;
   margin-left: 25%;
   text-align: center;
@@ -296,7 +288,6 @@ p {
 
 .mini-number-rectangle {
   width: 70%;
-  height: 70%;
   margin-top: 16%;
   margin-left: 15%;
   text-align: center;
@@ -308,7 +299,6 @@ p {
 
 .task-list-name {
   position: relative;
-  height: 24px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -379,7 +369,6 @@ p {
 
 .lorem-ipsum-is-simpl-para {
   float: left;
-  height: 50px;
   width: 93.5%;
   color: #283238;
   font-family: "Roboto", sans-serif;
@@ -438,7 +427,6 @@ p {
 
 .lorem-ipsum-is-simpl-customers {
   position: relative;
-  height: 90px;
   width: 750px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
@@ -488,6 +476,7 @@ p {
 }
 
 .img-hover {
+  border-radius: 50%;
   margin-left: 78px;
   width: 80px;
   height: 80px;
@@ -497,6 +486,7 @@ p {
 }
 
 .img-hover:hover {
+  cursor: pointer;
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -504,7 +494,6 @@ p {
 
 .customer-name {
   position: relative;
-  width: 70px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
@@ -517,8 +506,6 @@ p {
 
 .customer-job {
   position: relative;
-  height: 31px;
-  width: 58px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -558,20 +545,26 @@ p {
 }
 
 .small-footer-title {
-  height: 18px;
-  width: 100px;
-  color: #8BC34A;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
+  color: #8BC34A;
   font-weight: 300;
   line-height: 18px;
   position: absolute;
   margin-top: 54px;
 }
 
+.small-footer-text a {
+  color: #D0D8DC;  
+  text-decoration: none;
+}
+
+.small-footer-text a:hover {
+  color: #8BC34A;
+}
+
 .small-footer-text {
-  height: 40px;
-  width: 80px;
   color: #D0D8DC;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
