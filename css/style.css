@@ -36,7 +36,6 @@ p {
 
 .sign-in {
   height: 36px;
-  width: 83px;
   border: 2px solid #8BC34A;
   border-radius: 100px;
   color: #8BC34A;
@@ -45,7 +44,7 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 16px;
-  padding: 10px 15px 10px 15px;
+  padding: 9px 15px 10px 15px;
   background: none;
   margin-left: 36px;
   cursor: pointer;
@@ -233,7 +232,7 @@ p {
   width: 100%;
   color: #283238;
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 13.2px;
   line-height: 24px;
   text-align: justify;
   margin-top: 38px;
@@ -298,7 +297,7 @@ p {
 .mini-number-rectangle {
   width: 70%;
   height: 70%;
-  margin-top: 17%;
+  margin-top: 16%;
   margin-left: 15%;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -488,21 +487,19 @@ p {
   width: 150px;
 }
 
-.human-face-img {
+.img-hover {
   margin-left: 78px;
+  width: 80px;
+  height: 80px;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.human-face-img:hover {
+.img-hover:hover {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-}
-
-.human-face-img:hover + .customer-name {
-  margin-top: 20px;
 }
 
 .customer-name {
@@ -514,7 +511,7 @@ p {
   font-weight: 300;
   line-height: 13px;
   text-align: center;
-  margin-left: 81px;
+  margin-left: 5px;
   margin-top: 16px;
 }
 
@@ -528,7 +525,7 @@ p {
   font-weight: 300;
   line-height: 13px;
   text-align: center;
-  margin-left: 85px;
+  margin-left: 9px;
   margin-top: 2px;
 }
 
