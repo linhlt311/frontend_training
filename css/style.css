@@ -18,6 +18,7 @@ p {
 button {
   border:none;
 }
+
 .rectangle {
   height: 832px;
 }
@@ -51,7 +52,7 @@ button {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 16px;
-  padding: 10px 15px;
+  padding: 9px 15px;
   background: none;
   margin-left: 36px;
   cursor: pointer;
@@ -147,7 +148,7 @@ button {
   margin-left: 9.4%;
 }
 
-.lorem-ipsum-is-simpl-index {
+.index-slogan {
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 17.5px;
@@ -211,7 +212,7 @@ button {
   margin-top: 15px;
 }
 
-.lorem-ipsum-is-simpl-subscription {
+.description {
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 13.5px;
@@ -221,7 +222,7 @@ button {
   margin-top: 16px;
 }
 
-.lorem-ipsum-is-simpl-para-long {
+.long-paragraph {
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 13.2px;
@@ -366,7 +367,7 @@ button {
   text-align: justify;
 }
 
-.lorem-ipsum-is-simpl-para {
+.short-paragraph {
   float: left;
   width: 93.5%;
   color: #283238;
@@ -424,7 +425,7 @@ button {
   margin-left: -100px;
 }
 
-.lorem-ipsum-is-simpl-customers {
+.customer-comment {
   position: relative;
   width: 750px;
   color: #FFFFFF;
@@ -472,7 +473,7 @@ button {
   width: 150px;
 }
 
-.img-hover {
+.customer-content {
   border-radius: 50%;
   margin-left: 78px;
   width: 80px;
@@ -482,7 +483,7 @@ button {
   transition: all 0.3s;
 }
 
-.img-hover:hover {
+.customer-content:hover {
   cursor: pointer;
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
