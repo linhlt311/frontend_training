@@ -6,8 +6,17 @@ body {
   margin: 0;
 }
 
+a {
+  color: #8BC34A;
+  text-decoration: none;
+}
+
 p {
   margin: 0;
+}
+
+button {
+  border:none;
 }
 
 .rectangle {
@@ -35,8 +44,6 @@ p {
 }
 
 .sign-in {
-  height: 36px;
-  width: 83px;
   border: 2px solid #8BC34A;
   border-radius: 100px;
   color: #8BC34A;
@@ -45,7 +52,7 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 16px;
-  padding: 10px 15px 10px 15px;
+  padding: 9px 15px;
   background: none;
   margin-left: 36px;
   cursor: pointer;
@@ -57,8 +64,6 @@ p {
 }
 
 .start-now-button {
-  height: 24px;
-  width: 120px;
   border-radius: 100px;
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -70,7 +75,7 @@ p {
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 24px;
-  padding: 18px 49px 18px 56px;
+  padding: 18px 55px;
 }
 
 .index-logo-icon {
@@ -115,8 +120,6 @@ p {
 
 .better {
   display: inline-block;
-  height: 48px;
-  width: 96px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -127,30 +130,25 @@ p {
 
 .faster {
   display: inline-block;
-  height: 48px;
-  width: 101px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
-  margin-left: 11.7%;
+  margin-left: 11.8%;
 }
 
 .together {
   display: inline-block;
-  height: 48px;
-  width: 141px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 300;
   line-height: 48px;
-  margin-left: 9.3%;
+  margin-left: 9.4%;
 }
 
 .index-slogan {
-  height: 24px;
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 17.5px;
@@ -197,8 +195,6 @@ p {
 .today-i-learnt {
   position: relative;
   display: inline-block;
-  height: 63px;
-  width: 60%;
   color: #444444;
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -209,8 +205,6 @@ p {
 
 .title-icon {
   display: inline-block;
-  height: 36px;
-  width: 36px;
   color: #444444;
   font-family: themify;
   font-size: 36px;
@@ -218,8 +212,7 @@ p {
   margin-top: 15px;
 }
 
-.lorem-ipsum-is-simpl-subscription {
-  height: 19px;
+.description {
   color: #283238;
   font-family: "Roboto", sans-serif;
   font-size: 13.5px;
@@ -229,11 +222,10 @@ p {
   margin-top: 16px;
 }
 
-.lorem-ipsum-is-simpl-para-long {
-  width: 100%;
+.long-paragraph {
   color: #283238;
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 13.2px;
   line-height: 24px;
   text-align: justify;
   margin-top: 38px;
@@ -287,7 +279,6 @@ p {
 
 .mini-icon-rectangle {
   width: 50%;
-  height: 50%;
   margin-top: 28%;
   margin-left: 25%;
   text-align: center;
@@ -297,8 +288,7 @@ p {
 
 .mini-number-rectangle {
   width: 70%;
-  height: 70%;
-  margin-top: 17%;
+  margin-top: 16%;
   margin-left: 15%;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -309,7 +299,6 @@ p {
 
 .task-list-name {
   position: relative;
-  height: 24px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -378,9 +367,8 @@ p {
   text-align: justify;
 }
 
-.lorem-ipsum-is-simpl-para {
+.short-paragraph {
   float: left;
-  height: 50px;
   width: 93.5%;
   color: #283238;
   font-family: "Roboto", sans-serif;
@@ -437,9 +425,8 @@ p {
   margin-left: -100px;
 }
 
-.lorem-ipsum-is-simpl-customers {
+.customer-comment {
   position: relative;
-  height: 90px;
   width: 750px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
@@ -448,7 +435,7 @@ p {
   line-height: 30px;
   text-align: justify;
   margin: auto;
-  margin-top: 51.5px;
+  margin-top: 90.5px;
 }
 
 .close-quote-icon {
@@ -465,8 +452,6 @@ p {
 
 .our-customer {
   position: relative;
-  height: 63px;
-  width: 100%;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -476,59 +461,58 @@ p {
 }
 
 .small-our-customer-box {
-  height: 80px;
-  width: 1300px;
-  margin-top: 48px;
-  margin-left: 320px;
+  height: 150px;
+  width: 1200px;
+  margin-top: 28px;
+  margin-left: 355px;
 }
 
 .mini-our-customer-box {
   float: left;
-  height: 80px;
-  width: 150px;
+  padding-top: 20px;
 }
 
-.human-face-img {
-  margin-left: 78px;
+.mini-our-customer-box:focus {
+  outline: none;
+}
+
+.customer-content {
+  border-radius: 50%;
+  margin: auto;
+  height: 150px;
+  width: 80px;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.human-face-img:hover {
+.customer-content:hover {
+  cursor: pointer;
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.human-face-img:hover + .customer-name {
-  margin-top: 20px;
-}
-
 .customer-name {
   position: relative;
-  width: 70px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 13px;
   text-align: center;
-  margin-left: 81px;
+  margin-left: 5px;
   margin-top: 16px;
 }
 
 .customer-job {
   position: relative;
-  height: 31px;
-  width: 58px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
   font-weight: 300;
   line-height: 13px;
   text-align: center;
-  margin-left: 85px;
   margin-top: 2px;
 }
 
@@ -561,20 +545,26 @@ p {
 }
 
 .small-footer-title {
-  height: 18px;
-  width: 100px;
-  color: #8BC34A;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
+  color: #8BC34A;
   font-weight: 300;
   line-height: 18px;
   position: absolute;
   margin-top: 54px;
 }
 
+.small-footer-text a {
+  color: #D0D8DC;  
+  text-decoration: none;
+}
+
+.small-footer-text a:hover {
+  color: #8BC34A;
+}
+
 .small-footer-text {
-  height: 40px;
-  width: 80px;
   color: #D0D8DC;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -608,7 +598,6 @@ p {
 
 .footer-icon-box {
   float: left;
-  height: 15px;
   width: 51px;
   color: #8BC34A;
   font-family: themify;
@@ -658,4 +647,17 @@ p {
 .customer-img {
   position: relative;
   margin-left: 19%;
+}
+
+.slick-dots li {
+  height: 11px;
+  width: 11px;
+  box-sizing: border-box;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  margin: 0 11px;
+}
+
+.slick-dots .slick-active {
+  background-color: #D8D8D8;
 }
