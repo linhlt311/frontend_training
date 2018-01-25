@@ -435,7 +435,7 @@ button {
   line-height: 30px;
   text-align: justify;
   margin: auto;
-  margin-top: 51.5px;
+  margin-top: 90.5px;
 }
 
 .close-quote-icon {
@@ -461,23 +461,26 @@ button {
 }
 
 .small-our-customer-box {
-  height: 80px;
-  width: 1300px;
-  margin-top: 48px;
-  margin-left: 320px;
+  height: 150px;
+  width: 1200px;
+  margin-top: 28px;
+  margin-left: 355px;
 }
 
 .mini-our-customer-box {
   float: left;
-  height: 80px;
-  width: 150px;
+  padding-top: 20px;
+}
+
+.mini-our-customer-box:focus {
+  outline: none;
 }
 
 .customer-content {
   border-radius: 50%;
-  margin-left: 78px;
+  margin: auto;
+  height: 150px;
   width: 80px;
-  height: 80px;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -644,4 +647,17 @@ button {
 .customer-img {
   position: relative;
   margin-left: 19%;
+}
+
+.slick-dots li {
+  height: 11px;
+  width: 11px;
+  box-sizing: border-box;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  margin: 0 11px;
+}
+
+.slick-dots .slick-active {
+  background-color: #D8D8D8;
 }
